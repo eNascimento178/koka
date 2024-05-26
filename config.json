@@ -1,6 +1,6 @@
 {
-  "language": "{{LANGUAGE}}",
-  "slug": "{{SLUG}}",
+  "language": "Koka",
+  "slug": "koka",
   "active": false,
   "status": {
     "concept_exercises": false,
@@ -8,23 +8,43 @@
     "representer": false,
     "analyzer": false
   },
-  "blurb": "TODO: add blurb",
+  "blurb": "Koka is a strongly typed functional-style language with effect types and handlers.",
   "version": 3,
   "online_editor": {
     "indent_style": "space",
-    "indent_size": 4
+    "indent_size": 2,
+    "highlightjs_language": "text"
   },
   "files": {
-    "solution": [],
-    "test": [],
-    "example": [],
-    "exemplar": []
+    "solution": [
+      "%{kebab_slug}.kk"
+    ],
+    "test": [
+      "%{kebab_slug}-test.kk"
+    ],
+    "example": [
+      ".meta/example.kk"
+    ],
+    "exemplar": [
+      ".meta/exemplar.kk"
+    ]
   },
   "exercises": {
-    "concept": [],
-    "practice": []
+    "practice": [
+      {
+        "slug": "hello-world",
+        "name": "Hello World",
+        "uuid": "8b419c4a-9b2b-44c7-aab7-b220da949c25",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      }
+    ]
   },
-  "concepts": [],
-  "key_features": [],
-  "tags": []
+  "key_features": [
+
+  ],
+  "tags": [
+
+  ]
 }

@@ -2,15 +2,12 @@
   "authors": [
     "eNascimento178"
   ],
-  "contributors": [
-    
-  ],
   "files": {
     "solution": [
       "hello-world.kk"
     ],
     "test": [
-      "test.kk"
+      "hello-world-test.kk"
     ],
     "example": [
       ".meta/example.kk"
