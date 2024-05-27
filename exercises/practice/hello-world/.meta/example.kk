@@ -1,5 +1,5 @@
 module example
 
-pub fun hello-world() {
+pub fun hello-world() : string {
   "Hello, World!"
 }

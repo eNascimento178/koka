@@ -6,7 +6,6 @@ import kunit
 fun tests() [
   test("Say hi!", fn() 
     val expected = "Hello, World!"
-
     val actual   = hello-world()
 
     assert/equal(expected, actual, string/(==))
